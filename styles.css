@@ -15,6 +15,12 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  padding: 0 32px;
+}
+
+.logo {
+  display: flex;
+  max-width: 100%;
 }
 
 .comming-soon {
@@ -27,6 +33,7 @@ body {
   font-weight: 500;
   color: #333;
   text-transform: uppercase;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
+  font-size: 12px;
   margin-top: 3rem;
 }
